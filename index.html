@@ -15,9 +15,18 @@
     <meta name="DC.Rights" content="Niels Lohmann">
     <meta name="DC.Description" content="Niels Lohmann, Postdoc researcher at the University of Rostock">
     <meta name="DC.Language" content="en-us">
-    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="avenir.css">
     <link rel="stylesheet" type="text/css" href="layout.css">
+
+    <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+    <script type='text/javascript' src="bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(window).load(function(){
+    $('.popoverData').popover();
+    });
+    </script>
 </head>
 
 <body>
@@ -30,40 +39,52 @@
         </div>
     </div>
     <div id="icons">
-        <a href="http://www.informatik.uni-rostock.de/~nl" title="Website at the University of Rostock">
+        <a href="http://www.informatik.uni-rostock.de/~nl"
+            class="btn popoverData" data-content="my professional website" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-suitcase"></i>
         </a>
-        <a href="mailto:mail@nlohmann.me" title="Email">
+        <a href="mailto:mail@nlohmann.me"
+            class="btn popoverData" data-content="email me" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-inbox"></i>
         </a>
-        <a href="tel:+491785679727" title="Telephone: +49 178 5679727">
+        <a href="tel:+491785679727"
+            class="btn popoverData" data-content="call me" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-phone"></i>
         </a>
-        <a href="skype:nlohmann?chat" title="Skype: nlohmann">
+        <a href="skype:nlohmann?chat"
+            class="btn popoverData" data-content="chat with me" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-skype"></i>
         </a>
-        <a href="https://twitter.com/nlohmann" title="Twitter: @nlohmann">
+        <a href="https://twitter.com/nlohmann"
+            class="btn popoverData" data-content="my microblog" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-twitter"></i>
         </a>
-        <a href="https://github.com/nlohmann" title="Github: nlohmann">
+        <a href="https://github.com/nlohmann"
+            class="btn popoverData" data-content="my software" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-github"></i>
         </a>
-        <a href="http://www.linkedin.com/in/nielslohmann" title="LinkedIn profile">
+        <a href="http://www.linkedin.com/in/nielslohmann"
+            class="btn popoverData" data-content="my academic network" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-linkedin"></i>
         </a>
-        <a href="https://www.xing.com/profile/Niels_Lohmann" title="XING profile">
+        <a href="https://www.xing.com/profile/Niels_Lohmann"
+            class="btn popoverData" data-content="my professional network" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-xing"></i>
         </a>
-        <a href="https://www.facebook.com/niels.lohmann" title="Facebook profile">
+        <a href="https://www.facebook.com/niels.lohmann"
+            class="btn popoverData" data-content="my social network" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-facebook"></i>
         </a>
-        <a href="https://foursquare.com/nlohmann" title="Foursquare profile">
+        <a href="https://foursquare.com/nlohmann"
+            class="btn popoverData" data-content="my location" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-foursquare"></i>
         </a>
-        <a href="http://blog.nlohmann.me" title="personal blog">
+        <a href="http://blog.nlohmann.me"
+            class="btn popoverData" data-content="my blog" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-comment"></i>
         </a>
-        <a href="https://vimeo.com/nlohmann" title="Vimeo profile">
+        <a href="https://vimeo.com/nlohmann"
+            class="btn popoverData" data-content="my videos" rel="popover" data-placement="top" data-trigger="hover">
             <i class="fa fa-vimeo-square"></i>
         </a>
     </div>

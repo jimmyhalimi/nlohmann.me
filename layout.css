@@ -16,6 +16,7 @@ body {
     font-family: avenir-web, Avenir;
     color: #fff;
     font-size: 40px;
+    font-weight: normal;
 }
 
 #name div {
@@ -29,7 +30,7 @@ body {
 
 #icons {
     padding-top: 1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -39,13 +40,11 @@ body {
 .fa {
     font-size: 2em;
     color:#555;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
 }
 
 .fa:hover {
     color:#fff;
+    text-shadow: #c0c0c0 0px 0px 5px;
 }
 
 .tooltip {
@@ -53,6 +52,9 @@ body {
     font-size: 1em;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
 }
+
+.popover-title { display: none; }
+.popover-content { padding-top: 1em; }
