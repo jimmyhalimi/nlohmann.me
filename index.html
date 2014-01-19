@@ -30,14 +30,44 @@
 </head>
 
 <body>
-    <div id="name">
+    <div id="content">
         <img src="resources/images/avatar.png" alt="Niels Lohmann">
-        <div>Niels Lohmann<br>
-            <span>
-                <a href="http://www.informatik.uni-rostock.de/~nl/">Postdoc researcher at the University of Rostock</a>
-            </span>
+        <div id="content_name">Niels Lohmann</div>
+        <div id="content_description">
+            <a href="http://www.informatik.uni-rostock.de/~nl/">Postdoc researcher at the University of Rostock</a>
         </div>
     </div>
+
+    <div id="metadata" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Niels Lohmann</span>
+        <span itemprop="jobTitle">Postdoc</span>
+        <span itemprop="email">mail@nlohmann.me</span>
+        <span itemprop="gender">male</span>
+        <span itemprop="familyName">Lohmann</span>
+        <span itemprop="givenName">Niels</span>
+        <span itemprop="honorificPrefix">Dr.</span>
+
+        <span itemprop="affiliation" itemscope
+           itemtype="http://data-vocabulary.org/Organization">
+           <span itemprop="name">University of Rostock</span>
+
+           <span itemprop="location" itemscope
+              itemtype="http://data-vocabulary.org/PostalAddress">
+              <span itemprop="addressLocality">Rostock</span>
+              <span itemprop="addressCountry">DE</span>
+           </span>
+        </span>
+
+        <span itemprop="address" itemscope
+           itemtype="http://data-vocabulary.org/PostalAddress">
+           <span itemprop="addressLocality">Rostock</span>
+           <span itemprop="addressCountry">DE</span> 
+        </span>
+
+        <a href="http://www.informatik.uni-rostock.de/~nl" itemprop="url">website</span>
+        <a href="http://www.informatik.uni-rostock.de/~nl/resources/img/nlohmann.jpg" itemprop="image">photo</a>
+    </div>
+
     <div id="icons">
         <a href="http://www.informatik.uni-rostock.de/~nl"
             class="btn popoverData" data-content="my professional website" rel="popover" data-placement="top" data-trigger="hover">
