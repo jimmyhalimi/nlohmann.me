@@ -21,6 +21,16 @@ body {
     font-family: avenir-web, Avenir;
 }
 
+#content > img {
+    height: 200px;
+    width: 200px;
+    border: #fff solid 4px;
+    border-radius: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    box-shadow: #c0c0c0 0px 0px 4px;
+}
+
 #content_name {
     color: #fff;
     font-size: 40px;
