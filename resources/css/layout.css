@@ -48,6 +48,10 @@ body {
     color: #ccc;
 }
 
+#content_description a:hover {
+    text-decoration: none;
+}
+
 
 /**********\
 * METADATA *
