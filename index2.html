@@ -27,18 +27,10 @@
     $(window).load(function(){
     $('.popoverData').popover();
     });
-    </script>
-    
-    <style>
-    .btn {
-      position: absolute;
-    }
-    </style>
-    
-    <script type='text/javascript'>//<![CDATA[ 
+
     $(function(){
     function distributeFields() {
-        var radius = 150;
+        var radius = ($('#avatar').height() / 2) + 50;
         var fields = $('.btn'), container = $('#circle'),
             width = container.width(), height = container.height(),
             angle = 0, step = (2*Math.PI) / fields.length;
@@ -57,16 +49,14 @@
     }
 
     distributeFields();
-    });//]]>  
-
+    });
     </script>
-    
 </head>
 
 <body>
     <div id="content">
       <div id="circle">
-        <img src="resources/images/avatar.jpg" alt="Niels Lohmann">
+        <img src="resources/images/avatar.jpg" alt="Niels Lohmann" id="avatar">
         
         <a href="http://www.informatik.uni-rostock.de/~nl"
             class="btn popoverData" data-content="my professional website" rel="popover" data-placement="top" data-trigger="hover">
@@ -161,8 +151,6 @@
         <a href="http://www.informatik.uni-rostock.de/~nl" itemprop="url">website</span>
         <a href="http://www.informatik.uni-rostock.de/~nl/resources/img/nlohmann.jpg" itemprop="image">photo</a>
     </div>
-
-
-</body>
+  </body>
 
 </html>
