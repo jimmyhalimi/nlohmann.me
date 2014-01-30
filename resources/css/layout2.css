@@ -29,8 +29,8 @@ body {
 }
 
 #content img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border: #fff solid 4px;
     border-radius: 300px;
     -webkit-border-radius: 300px;
@@ -79,12 +79,75 @@ body {
 
 #circle .fa {
     font-size: 2em;
+    width: 2em;
+    height: 2em;
     color:#555;
+    padding: 0.5em;
 }
 
 #circle .fa:hover {
     color:#fff;
     text-shadow: #c0c0c0 0px 0px 5px;
+    abackground-color: #000;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.fa-skype:hover {
+    background-color: #00aff0;
+}
+
+.fa-comment:hover {
+    background-color: #5dc697;
+}
+
+.fa-vimeo-square:hover {
+    background-color: #4ebbff;
+}
+
+.fa-foursquare:hover {
+    background-color: #25a0ca;
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998;
+}
+
+.fa-twitter:hover {
+    background-color: #00acee;
+}
+
+.fa-github:hover {
+    background-color: #171515;
+}
+
+.fa-linkedin:hover {
+    background-color: #0e76a8;
+}
+
+.fa-xing:hover {
+    background-color: #126567;
+}
+
+.fa-book:hover {
+    background-color: #ffda00;
+}
+
+.fa-suitcase:hover {
+    background-color: #0d4f9d;
+}
+
+.fa-heart:hover {
+    background-color: #fea700;
+}
+
+.fa-phone:hover {
+    background-color: #ea0a8e;
+}
+
+.fa-inbox:hover {
+    background-color: #dd4b39;
 }
 
 #circle a, #circle a:hover {
@@ -92,4 +155,4 @@ body {
 }
 
 .popover-title { display: none; }
-.popover-content { padding-top: 1em; }
+.popover-content { padding-top: 1em; white-space: nowrap; }
