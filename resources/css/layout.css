@@ -150,6 +150,10 @@ body {
     background-color: #dd4b39;
 }
 
+.fa-lock:hover {
+    background-color: #ff7932;
+}
+
 #circle a, #circle a:hover {
     text-decoration: none;
 }
