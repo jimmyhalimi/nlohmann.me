@@ -142,6 +142,10 @@ body {
     background-color: #fea700;
 }
 
+.fa-paypal:hover {
+    background-color: #012169;
+}
+
 .fa-phone:hover {
     background-color: #00ff54;
 }
