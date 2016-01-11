@@ -158,6 +158,10 @@ body {
     background-color: #ff7932;
 }
 
+.fa-stack-overflow:hover {
+    background-color: #f69c55;
+}
+
 #circle a, #circle a:hover {
     text-decoration: none;
 }
