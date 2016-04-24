@@ -162,6 +162,10 @@ body {
     background-color: #f69c55;
 }
 
+.fa-amazon:hover {
+    background-color: #ff9900;
+}
+
 #circle a, #circle a:hover {
     text-decoration: none;
 }
