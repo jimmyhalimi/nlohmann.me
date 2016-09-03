@@ -166,6 +166,10 @@ body {
     background-color: #ff9900;
 }
 
+.fa-instagram:hover {
+    background-color: #c13584;
+}
+
 #circle a, #circle a:hover {
     text-decoration: none;
 }
