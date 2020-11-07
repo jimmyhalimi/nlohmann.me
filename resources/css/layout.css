@@ -94,10 +94,6 @@ body {
     -webkit-border-radius: 100px;
 }
 
-.fa-skype:hover {
-    background-color: #00aff0;
-}
-
 .fa-comment:hover {
     background-color: #5dc697;
 }
@@ -108,10 +104,6 @@ body {
 
 .fa-foursquare:hover {
     background-color: #f94877;
-}
-
-.fa-facebook:hover {
-    background-color: #3b5998;
 }
 
 .fa-twitter:hover {
@@ -132,14 +124,6 @@ body {
 
 .fa-book:hover {
     background-color: #ffda00;
-}
-
-.fa-university:hover {
-    background-color: #0d4f9d;
-}
-
-.fa-heart:hover {
-    background-color: #fea700;
 }
 
 .fa-paypal:hover {
